@@ -1,0 +1,48 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+___________________________________________________________
+mzrmn@DESKTOP-KL79R57 MINGW64 /e/somename/GitPractica (main)
+$ git branch
+  FirstBranch
+* main
+mzrmn@DESKTOP-KL79R57 MINGW64 /e/somename/GitPractica (main)
+___________________________________________________________
+$ git log
+commit 5e97b5efefa3b361f0e7967ce28b096cf4e75e6d (HEAD -> main, origin/main, orig
+in/HEAD)
+Author: Clor0phyte <nikitamazur008@gmail.com>
+Date:   Sat Sep 27 11:52:22 2025 +0300
+
+    Created Text.txt
+
+commit ccac28785c1ce37fe72c5aec1679023537389b59
+Merge: 2e42980 116ebff
+Author: Clor0phyte <nikitamazur008@gmail.com>
+Date:   Sat Sep 27 11:50:48 2025 +0300
+
+    merged branches and united code
+
+commit 2e42980d8fbe3e6bdd26f18877b5ee900de228c9
+Author: Clor0phyte <nikitamazur008@gmail.com>
+Date:   Sat Sep 27 11:49:04 2025 +0300
+
+    created head stroke
+
+commit 116ebff5b1ed83147a2a5c24147770df9c042330 (origin/FirstBranch, FirstBranch
+)
+Author: Clor0phyte <nikitamazur008@gmail.com>
+
+mzrmn@DESKTOP-KL79R57 MINGW64 /e/somename/GitPractica (main)
+____________________________________________________________
+$ git log --merges
+
+commit ccac28785c1ce37fe72c5aec1679023537389b59
+Merge: 2e42980 116ebff
+Author: Clor0phyte <nikitamazur008@gmail.com>
+Date:   Sat Sep 27 11:50:48 2025 +0300
+
+    merged branches and united code
+~
+
